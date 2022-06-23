@@ -1,0 +1,73 @@
+/* .box{
+    width: 150px;
+    height: 100px;
+    background-color: red;
+    border: 10px solid red;
+    box-shadow: 12px 12px 10px gainsboro,
+                -6px -4px 23px burlywood;
+    margin: 80px;
+    border-style: outset; */
+    /* transition: all 1s ease-out; */
+    /* animation: grow 3s infinite; */
+
+/* } */
+/* .box:hover{
+border-radius: 30%;
+background-color: brown;
+border: 10px solid brown;
+
+} */
+/* @keyframes grow{
+    0%{width: 150px;
+        height: 100px;
+        background-color: red;
+        border: 10px solid red;
+        box-shadow: 12px 12px 10px gainsboro,
+                    -6px -4px 23px burlywood;
+        margin: 80px;
+        border-style: outset;
+
+    }
+    50%{
+        width: 300px;
+    height: 200px;
+    background-color: rgb(3, 87, 62);
+    border: 10px solid rgb(13, 151, 59);
+    box-shadow: 12px 12px 10px gainsboro,
+                -6px -4px 23px burlywood;
+    margin: 80px;
+    border-style: double;
+    }
+    100%{
+        width: 75px;
+    height: 50px;
+    background-color: red;
+    border: 10px solid rgba(179, 119, 119, 0.3);
+    box-shadow: 12px 12px 10px gainsboro,
+                -6px -4px 23px burlywood;
+    margin: 80px;
+    border-style: groove;
+    }
+} */
+.box{
+    height: 20px;
+    width: 30px;
+    background-color: black;
+    margin: 0px;
+    animation: Logo 2s ease-in-out infinite alternate both;
+}
+.box-red{
+    background-color: red;
+}
+.box-blue{
+    background-color: blue;
+}
+.box-green{
+    background-color: green;
+}
+.box-orange{
+    background-color: orange;
+}
+@keyframes Logo{
+    100% {transform: translate(50vw,50vh) scalex(10) skewy(60deg)}
+}
